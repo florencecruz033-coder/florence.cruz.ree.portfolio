@@ -1,5 +1,4 @@
 {
- "tailwindcss": "^3.3.3"
   "version": 2,
   "builds": [
     { "src": "index.html", "use": "@vercel/static" }
