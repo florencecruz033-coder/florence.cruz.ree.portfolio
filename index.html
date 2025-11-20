@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>John Doe | Electrical Engineer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div id="progressBar"></div>
+
+<nav id="navbar">
+    <div class="container">
+        <div class="logo">JD</div>
+        <ul class="nav-links">
+            <li><a href="#hero">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="burger">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+        <div class="theme-toggle" id="themeToggle">🌙</div>
+    </div>
+</nav>
+
+<header id="hero">
+    <div class="container hero-container">
+        <img src="assets/profile.jpg" alt="John Doe" class="profile-img">
+        <h1>John Doe</h1>
+        <p>Electrical Engineer | Circuit Design | Embedded Systems | Power Electronics</p>
+    </div>
+</header>
+
+<section id="about" class="fade-in">
+    <div class="container">
+        <h2>About Me</h2>
+        <p>I am a passionate electrical engineer specializing in circuit design, embedded systems, and power electronics. I enjoy turning ideas into functional systems and creating innovative solutions.</p>
+    </div>
+</section>
+
+<section id="skills" class="fade-in">
+    <div class="container">
+        <h2>Skills</h2>
+        <ul class="skill-list">
+            <li>Circuit Design</li>
+            <li>PCB Layout</li>
+            <li>Microcontrollers (Arduino, STM32)</li>
+            <li>Power Electronics</li>
+            <li>IoT & Embedded Systems</li>
+        </ul>
+    </div>
+</section>
+
+<section id="projects" class="fade-in">
+    <div class="container">
+        <h2>Projects</h2>
+        <div class="project-card">
+            <img src="assets/project1.png" alt="Smart Home Automation">
+            <h3>Smart Home Automation</h3>
+            <p>An IoT-based home automation system using Arduino.</p>
+        </div>
+        <div class="project-card">
+            <img src="assets/project2.png" alt="Solar Charger">
+            <h3>Solar Charger Design</h3>
+            <p>Design and implementation of a solar-powered charging system.</p>
+        </div>
+        <div class="project-card">
+            <img src="assets/project3.png" alt="Robotic Arm">
+            <h3>Robotic Arm Control</h3>
+            <p>Microcontroller-based robotic arm with precision control.</p>
+        </div>
+    </div>
+</section>
+
+<section id="contact" class="fade-in">
+    <div class="container">
+        <h2>Contact Me</h2>
+        <form id="contactForm">
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <textarea name="message" placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+        <p>Email: johndoe@example.com</p>
+    </div>
+</section>
+
+<script src="script.js"></script>
+</body>
+</html>
