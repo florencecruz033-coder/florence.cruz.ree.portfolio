@@ -33,7 +33,7 @@ section h2 {text-align:center; margin-bottom:30px; font-size:2rem;}
 .project-card {background:#fff; border-radius:10px; box-shadow:0 2px 8px rgba(0,0,0,0.1); margin:20px auto; max-width:400px; text-align:center; overflow:hidden; transition: transform 0.3s ease, box-shadow 0.3s ease;}
 .project-card:hover {transform:translateY(-10px); box-shadow:0 5px 15px rgba(0,0,0,0.2);}
 .project-card img {width:100%; display:block;}
-.project-card h3 {margin:15px 0 10px;}
+.project-card h6 {margin:15px 0 10px;}
 .project-card p {padding:0 15px 15px;}
 
 /* Contact */
